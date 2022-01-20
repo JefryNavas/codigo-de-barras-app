@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            SCANNER
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-slides mode="ios" pager="ios" scrollbar="ios">
+        <ion-slide>
+            <ion-button (click)="scan()" expand="full" shape="round">
+                SCANCODE
+            </ion-button>
+        </ion-slide>
+    </ion-slides>
+
+    <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+</ion-content>

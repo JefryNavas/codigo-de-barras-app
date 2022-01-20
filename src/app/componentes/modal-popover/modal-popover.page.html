@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Producto</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>{{nombre}}</ion-card-title>
+            <!-- <h5>{{precio}}</h5> -->
+        </ion-card-header>
+
+        <ion-card-content>
+            <h1><strong>{{precio}} $</strong></h1>
+            <h2>{{informacion}}</h2>
+            <br>
+            <h3>Cantidad: {{unidades}}</h3>
+            <h3>Descuento: {{oferta}}%</h3>
+
+        </ion-card-content>
+    </ion-card>
+    <div align="center">
+        <ion-button (click)="closeModel()">Cerrar</ion-button>
+    </div>
+
+</ion-content>

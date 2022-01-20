@@ -1,0 +1,8 @@
+{
+  "name": "app_qr",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
